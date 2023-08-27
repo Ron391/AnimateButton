@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2289_SkVNQSBGQU1PIDEwMjgtMTIy.jpg" />
+    <None Remove="icons8-chat-48.png" />
+    <None Remove="icons8-control-panel-32.png" />
+    <None Remove="icons8-down-48 %281%29.png" />
+    <None Remove="icons8-group-of-projects-32.png" />
+    <None Remove="icons8-home-48.png" />
+    <None Remove="icons8-location-50.png" />
+    <None Remove="icons8-performance-macbook-30.png" />
+    <None Remove="icons8-send-letter-50 %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="2289_SkVNQSBGQU1PIDEwMjgtMTIy.jpg" />
+    <Resource Include="icons8-chat-48.png" />
+    <Resource Include="icons8-control-panel-32.png" />
+    <Resource Include="icons8-down-48 (1).png" />
+    <Resource Include="icons8-group-of-projects-32.png" />
+    <Resource Include="icons8-home-48.png" />
+    <Resource Include="icons8-location-50.png" />
+    <Resource Include="icons8-performance-macbook-30.png" />
+    <Resource Include="icons8-send-letter-50 (1).png" />
+  </ItemGroup>
+
+</Project>
